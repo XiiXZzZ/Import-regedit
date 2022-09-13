@@ -5,7 +5,7 @@ piegoossens@hotmail.com#>
 #Logfile path
 $logfile = [System.Environment]::CurrentDirectory + "\log.txt"
 
-#Test
+#Test 2
 
 function WriteLog{
     param([String]$message)
