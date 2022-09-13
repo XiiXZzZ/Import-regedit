@@ -5,6 +5,8 @@ piegoossens@hotmail.com#>
 #Logfile path
 $logfile = [System.Environment]::CurrentDirectory + "\log.txt"
 
+#Test
+
 function WriteLog{
     param([String]$message)
     $timestamp = (Get-Date).toString("dd/MM/yyyy HH:mm:ss")
